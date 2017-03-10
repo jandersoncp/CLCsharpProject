@@ -8,9 +8,9 @@ namespace ToDoListApp.Controllers
 {
     public class CandidateController : Controller
     {
-        public string Detail()
+        public ActionResult Detail()
         {
-            return "This is the candidates Controller";
+            return View();
         }
     }
 }
