@@ -13,6 +13,6 @@ namespace GroceryApp.Models
         {
         }
 
-        public DbSet<GroceryApp.Models.Candidates> Candidates { get; set; }
+        public DbSet<GroceryApp.Models.GroceryItems> GroceryItems { get; set; }
     }
 }
