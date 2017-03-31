@@ -9,6 +9,7 @@ using System.Web.Mvc;
 using GroceryApp.Models;
 using GroceryApp2.Models;
 
+// EF grocery items
 namespace GroceryApp2.Controllers
 {
     public class GroceryItemsController : Controller
